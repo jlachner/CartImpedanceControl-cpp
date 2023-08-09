@@ -2,9 +2,9 @@
 #include <iostream>
 #include <Eigen/Dense>
 
-/*************************************************************/
-/********************* ROBOT PRIMITIVES **********************/
-/*************************************************************/
+/*********************************************************************/
+/****** CARTESIAN IMPEDANCE CONTROL BASED ON ELASTIC POTENTIALS ******/
+/*********************************************************************/
 
 CartImpController::CartImpController( char type, const int nq )
 {
@@ -339,6 +339,7 @@ Eigen::Vector3d CartImpController::getQuatAxis( Eigen::Matrix3d R ){
         epsilon( 2 ) = 0;
     }
     return epsilon;
+
 }
 
 

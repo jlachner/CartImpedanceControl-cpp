@@ -1,15 +1,12 @@
 /*
- * EXPlicit - A robotics toolbox based on the product of exponential formulae.
+ * A Cartesian Impedance Controller based on Elastic Potentials.
  *
  * Copyright (c) 2023
- * Authors
- * 			Johannes Lachner  	<jlachner@mit.edu>	
- *
+ * Authors: Johannes Lachner  	<jlachner@mit.edu>	
  */
 
 
 #include <Eigen/Dense>
-#include "cart_imp_ctrl_constants.h"
 
 /*
 	@brief A class a Cartesian Impedance Controller
