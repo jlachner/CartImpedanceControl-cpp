@@ -11,7 +11,7 @@ This repository contains a class for a Cartesian Impedance Controller, based on 
 # Setting up the software 
 To clone the repository, run 
 ```
-git clone https://github.com/jlachner/CartImpedanceControl-cpp.git [SET_UP_YOUR_DIRECTORY]
+    git clone https://github.com/jlachner/CartImpedanceControl-cpp.git [SET_UP_YOUR_DIRECTORY]
 ```
 
 For vector and matrix calculations, we use [Eigen version 3.4.0](https://gitlab.com/libeigen/eigen/-/releases/3.4.0), which is added as a git submodule. To update the submodules, type:
@@ -25,7 +25,7 @@ You always need to check for Explicit-cpp updates. For that, type:
 
 To compile the code, run
 ```
-make -f Makefile-lib
+    make -f Makefile-lib
 ```
 
 # Authors
